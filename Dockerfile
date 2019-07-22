@@ -6,4 +6,4 @@ COPY mirror.list /etc/apt/mirror.list
 
 COPY crontab /etc/cron.d
 
-ENTRYPOINT cron && apt-mirror && tail -f /var/spool/apt-mirror/var/cron.log
+ENTRYPOINT service cron start && apt-mirror && tail -F /var/spool/apt-mirror/var/cron.log
