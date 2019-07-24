@@ -40,3 +40,16 @@ docker-compose down
 ```
 
 Easy!
+
+## Demo?
+
+The mirror that I'm personally running is using latest version of this repository. Isn't it a perfect live-demo? 😄
+
+[http://mirror.dokupe.xyz/ubuntu/](http://mirror.dokupe.xyz/ubuntu/)
+
+- Ubuntu 16.04 LTS
+- Ubuntu 18.04 LTS
+- Ubuntu 19.04
+- Ubuntu 19.10
+- HTTP / HTTPS support
+- Syncing every 1 hour directly from archive.ubuntu.com.
