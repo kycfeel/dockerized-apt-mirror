@@ -26,16 +26,16 @@ deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe mu
 deb http://archive.ubuntu.com/ubuntu bionic-updates main main/debian-installer restricted restricted/debian-installer universe multiverse
 deb http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
 
-# Ubuntu 19.04
-deb http://archive.ubuntu.com/ubuntu disco main main/debian-installer restricted restricted/debian-installer universe multiverse
-deb http://archive.ubuntu.com/ubuntu disco-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu disco-updates main main/debian-installer restricted restricted/debian-installer universe multiverse
-deb http://archive.ubuntu.com/ubuntu disco-backports main restricted universe multiverse
+# Ubuntu 20.04 LTS
+deb http://archive.ubuntu.com/ubuntu focal main main/debian-installer restricted restricted/debian-installer universe multiverse
+deb http://archive.ubuntu.com/ubuntu focal-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu focal-updates main main/debian-installer restricted restricted/debian-installer universe multiverse
+deb http://archive.ubuntu.com/ubuntu focal-backports main restricted universe multiverse
 
-# Ubuntu 19.10
-deb http://archive.ubuntu.com/ubuntu eoan main main/debian-installer restricted restricted/debian-installer universe multiverse
-deb http://archive.ubuntu.com/ubuntu eoan-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu eoan-updates main main/debian-installer restricted restricted/debian-installer universe multiverse
-deb http://archive.ubuntu.com/ubuntu eoan-backports main restricted universe multiverse
+# Ubuntu 22.04 LTS
+deb http://archive.ubuntu.com/ubuntu jammy main main/debian-installer restricted restricted/debian-installer universe multiverse
+deb http://archive.ubuntu.com/ubuntu jammy-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu jammy-updates main main/debian-installer restricted restricted/debian-installer universe multiverse
+deb http://archive.ubuntu.com/ubuntu jammy-backports main restricted universe multiverse
 
 clean http://archive.ubuntu.com/ubuntu/
